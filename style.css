@@ -1,4 +1,12 @@
 html {
+ funcion-color-aleatorio
+    height: 100%;
+    width: 100%;
+  }
+  h5 {
+  cursor: pointer;
+  transition: color 0.3s ease;
+
   height: 100%;
   width: 100%;
 }
@@ -12,4 +20,5 @@ body {
 }
 .azul {
   color: blue !important; 
+ main
 }
