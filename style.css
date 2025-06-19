@@ -1,8 +1,24 @@
 html {
+ funcion-color-aleatorio
     height: 100%;
     width: 100%;
   }
   h5 {
   cursor: pointer;
   transition: color 0.3s ease;
+
+  height: 100%;
+  width: 100%;
+}
+
+h3 {
+  color: green;
+}
+
+body {
+  background-color: #efefef;
+}
+.azul {
+  color: blue !important; 
+ main
 }

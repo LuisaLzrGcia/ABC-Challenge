@@ -2,11 +2,13 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -15,22 +17,29 @@
         <div class="row">
             <div class="col">
                 <h1>ABC's Through Pictures!</h1>
-            </div> 
+            </div>
         </div>
         <br>
         <div class="row">
             <div class="col">
                 <h3>Presented by ...</h3>
-            </div> 
+            </div>
         </div>
         <br>
         <div class="row">
             <div class="col-12">
                 <!-- Enter each persons name in place of the "Insert Name Here" below -->
-                <h5>1</h5>
+                <h5 onclick="colorAleatorio()">Alain</h5>
+                <h5 onclick="colorAleatorio()">Luisa</h5>
+                <h5 onclick="colorAleatorio()">Gisella</h5>
+                <h5 onclick="colorAleatorio()">Omar</h5>
+                <h5 onclick="colorAleatorio()">Francisco</h5>
+                <h5 onclick="colorAleatorio()">Alexis</h5>
+                <h5 onclick="colorAleatorio()">Ivan</h5>
 
-            
-            </div> 
+
+
+            </div>
         </div>
         <br>
         <br>
@@ -38,7 +47,7 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">A</h1>
-                <h3>For Appa</h3>
+                <h3 class="azul">For Appa</h3> 
             </div>
             <div class="col-8">
                 <img src="Pictures/a-appa.jpg" class="img-thumbnail">
@@ -51,11 +60,11 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">B</h1>
-                <h3>For Beans</h3>
+                <h3 class="azul">For Beans</h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
-                <img src="" class="img-thumbnail">
+                <img src="Pictures/b-beans.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -64,11 +73,12 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">C</h1>
-                <h3>For Coffee</h3>
+                <h3 class="azul">For Cat</h3>
             </div>
             <div class="col-8">
                 <!-- Notice where the URL goes to -->
-                <img src="https://images.unsplash.com/photo-1523942839745-7848c839b661?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" class="img-thumbnail">
+                <img src="Pictures/c-cat.jpeg" class="img-thumbnail">
+
             </div>
         </div>
         <hr>
@@ -77,11 +87,12 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">D</h1>
-                <h3>For Duck</h3>
+                <h3>For Dog</h3>
             </div>
             <div class="col-8">
                 <!-- Notice where the URL goes to -->
-                <img src="https://images.unsplash.com/photo-1560987617-6de57e3d0574?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1738&q=80" class="img-thumbnail">
+                <img src="Pictures/d-dog.jpg" class="img-thumbnail">
+
             </div>
         </div>
         <hr>
@@ -95,7 +106,7 @@
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
-                <img src="photos/E- Elephan.jpg" class="img-thumbnail">
+                <img src="./Pictures/E- Elephan.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -109,7 +120,7 @@
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
-                <img src="" class="img-thumbnail">
+                <img src="./Pictures/F - Frog.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -123,7 +134,7 @@
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
-                <img src="" class="img-thumbnail">
+                <img src="./Pictures/G - Grass.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -137,7 +148,9 @@
             </div>
             <div class="col-8">
                 <!-- insert pathway to image  -->
-                <img  class="img-thumbnail">
+
+                <img src="./Pictures/H - Horse.jpg" class="img-thumbnail">
+
             </div>
         </div>
         <hr>
@@ -151,7 +164,7 @@
             </div>
             <div class="col-8">
                 <!-- insert pathway to image  -->
-                <img  class="img-thumbnail">
+                <img src="./Pictures/I - Ice.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -165,7 +178,7 @@
             </div>
             <div class="col-8">
                 <!-- insert pathway to image -->
-                <img src="" class="img-thumbnail">
+                <img src="./Pictures/J - Jellyfish.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -179,7 +192,7 @@
             </div>
             <div class="col-8">
                 <!-- insert pathway to image -->
-                <img src="" class="img-thumbnail">
+                <img src="./Pictures/K - Kangaroo.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -188,11 +201,11 @@
         <!-- Reference letter A for help, all details should be the same except for the letter in the h1 tag, the description in the h3 tag, and the path to the image "src". -->
         <div class="row">
             <div class="col-4">
-                <h1 class="display-1">k</h1>
+                <h1 class="display-1">L</h1>
                 <h3>For </h3>
             </div>
             <div class="col-8">
-                <img src="" class="img-thumbnail">
+                <img src="./Pictures/L - Lion.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -202,10 +215,15 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">M</h1>
-                <h3>For </h3>
+                <h3>For Mouse</h3>
             </div>
             <div class="col-8">
-                <img src="" class="img-thumbnail">
+
+              
+                <img src="Pictures/M - mouse.jpg" class="img-thumbnail">
+
+                
+
             </div>
         </div>
         <hr>
@@ -214,11 +232,14 @@
         <!-- Reference letter A for help, all details should be the same except for the letter in the h1 tag, the description in the h3 tag, and the path to the image "src". -->
         <div class="row">
             <div class="col-4">
+
                 <h1 class="display-1"></h1>
-                <h3>For </h3>
+                <h3>For Newspaper</h3>
             </div>
             <div class="col-8">
-                <img src="" class="img-thumbnail">
+
+                <img src="Pictures/N - Newspaper.jpg" class="img-thumbnail">
+
             </div>
         </div>
         <hr>
@@ -228,10 +249,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">O</h1>
-                <h3>For </h3>
+                <h3>For Owl</h3>
             </div>
             <div class="col-8">
-                <img src="" class="img-thumbnail">
+                <img src="Pictures/O - Owl.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -241,10 +262,12 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">P</h1>
-                <h3>For </h3>
+                <h3>For Pearl</h3>
             </div>
             <div class="col-8">
-                <img src="" >
+
+                <img src="Pictures/P - Pearl.jpg" class="img-thumbnail">
+
             </div>
         </div>
         <hr>
@@ -254,10 +277,12 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">Q</h1>
-                <h3> </h3>
+                <h3>For Queso</h3>
             </div>
             <div class="col-8">
-                <img src="" >
+
+                <img src="Pictures/Q- queso.webp" alt="queso">
+
             </div>
         </div>
         <hr>
@@ -270,7 +295,9 @@
                 <h3>For </h3>
             </div>
             <div class="col-8">
-                <img src="" >
+
+                <img src="Pictures/R-raton.png" alt="Raton">
+
             </div>
         </div>
         <hr>
@@ -283,7 +310,12 @@
                 <h3>For Salt</h3>
             </div>
             <div class="col-8">
+ funcion-color-aleatorio
                 <!-- insert img -->
+
+
+                <img src="Pictures/S-salmon.webp" alt="salmon">
+ main
 
             </div>
         </div>
@@ -294,10 +326,16 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">T</h1>
-                <h3>For </h3>
+                <h3>For Torta</h3>
             </div>
             <div class="col-8">
+ funcion-color-aleatorio
                 <!-- insert img -->
+
+
+                <img src="Pictures/T-torta.png" alt="torta">
+
+ main
             </div>
         </div>
         <hr>
@@ -307,10 +345,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">U</h1>
-                <h3> </h3>
+                <h3>For Umbrella </h3>
             </div>
             <div class="col-8">
-
+                <img src="./Pictures/U - Umbrella.jpg">
             </div>
         </div>
         <hr>
@@ -319,11 +357,11 @@
         <!-- Reference letter A for help, all details should be the same except for the letter in the h1 tag, the description in the h3 tag, and the path to the image "src". -->
         <div class="row">
             <div class="col-4">
-                <h1 class="display-1">W</h1>
-                <h3>For </h3>
+                <h1 class="display-1">V</h1>
+                <h3>For Vegetable</h3>
             </div>
             <div class="col-8">
-
+                <img src="./Pictures/V - vegetable.jpg">
             </div>
         </div>
         <hr>
@@ -332,11 +370,11 @@
         <!-- Reference letter A for help, all details should be the same except for the letter in the h1 tag, the description in the h3 tag, and the path to the image "src". -->
         <div class="row">
             <div class="col-4">
-                <h1 class="display-1">X</h1>
-                <h3>For </h3>
+                <h1 class="display-1">W</h1>
+                <h3>For Waves</h3>
             </div>
             <div class="col-8">
-
+                <img src="./Pictures/W - Waves.jpg">
             </div>
         </div>
         <hr>
@@ -344,53 +382,52 @@
         <!-- X -->
         <!-- Reference letter A for help, all details should be the same except for the letter in the h1 tag, the description in the h3 tag, and the path to the image "src". -->
         <div class="row">
-<<<<<<< HEAD
-  <div class="col-4">
-    <h1 class="display-1">X</h1>
-    <h3>for xbox</h3>
-  </div>
-  <div class="col-8">
-    <img src="Pictures/X - Xbox.jpg" class="img-thumbnail" alt="Imagen de Xbox">
-  </div>
-</div>
-<hr>
-<hr>
- <!-- y -->
+            <div class="col-4">
+                <h1 class="display-1">X</h1>
+                <h3>for xbox</h3>
+            </div>
+            <div class="col-8">
+                <img src="Pictures/X - Xbox.jpg" class="img-thumbnail" alt="Imagen de Xbox">
+            </div>
+        </div>
+        <hr>
+        <hr>
+        <!-- y -->
         <!-- Reference letter A for help, all details should be the same except for the letter in the h1 tag, the description in the h3 tag, and the path to the image "src". -->
-<div class="row">
-  <div class="col-4">
-    <h1 class="display-1">Y</h1>
-    <h3>for yogurt</h3>
-  </div>
-  <div class="col-8">
-    <img src="Pictures/y - yogurt.jpg" class="img-thumbnail" alt="Imagen de Yogurt">
-  </div>
-</div>
+        <div class="row">
+            <div class="col-4">
+                <h1 class="display-1">Y</h1>
+                <h3>for yogurt</h3>
+            </div>
+            <div class="col-8">
+                <img src="Pictures/y - yogurt.jpg" class="img-thumbnail" alt="Imagen de Yogurt">
+            </div>
+        </div>
         <hr>
         <hr>
         <!-- z -->
         <!-- Reference letter A for help, all details should be the same except for the letter in the h1 tag, the description in the h3 tag, and the path to the image "src". -->
-<div class="row">
-  <div class="col-4">
-    <h1 class="display-1">Y</h1>
-    <h3>for zebra</h3>
-  </div>
-  <div class="col-8">
-    <img src="Pictures/Z - Zebra.jpg" class="img-thumbnail" alt="Imagen de Yogurt">
-  </div>
-</div>
-=======
+        <div class="row">
             <div class="col-4">
-                <h1 class="display-1"></h1>
-                <h3> </h3>
+                <h1 class="display-1">Z</h1>
+                <h3>for zebra</h3>
             </div>
             <div class="col-8">
-
+                <img src="Pictures/Z - Zebra.jpg" class="img-thumbnail" alt="Imagen de Yogurt">
             </div>
         </div>
->>>>>>> 474eb77617a7fde56ecf1a0504cfd341a2689683
+        <div class="col-4">
+            <h1 class="display-1"></h1>
+            <h3> </h3>
+        </div>
+        <div class="col-8">
+
+        </div>
+        </div>
         <hr>
         <hr>
     </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
