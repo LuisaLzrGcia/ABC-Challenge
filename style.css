@@ -23,3 +23,7 @@ body {
   .rojo-h3{
     color: red;
   }
+
+img {
+  max-widht: 700px;
+}
